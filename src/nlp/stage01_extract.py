@@ -24,7 +24,7 @@ import logging
 from pathlib import Path
 from typing import Any
 
-from datafun_toolkit.logger import log_path
+# from datafun_toolkit.logger import log_path
 import requests
 
 # ============================================================
@@ -81,7 +81,7 @@ def run_extract(
 
     # Use the privacy-conscious
     # log_path function to log the sink path.
-    log_path(LOG, "SINK PATH", raw_json_path)
+    # log_path(LOG, "SINK PATH", raw_json_path)
 
     # Return the extracted JSON data as a Python object (e.g., a list or dictionary).
     return json_data
