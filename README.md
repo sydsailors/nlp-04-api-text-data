@@ -89,8 +89,7 @@ After you get a copy of this repo in your own GitHub account,
 open a machine terminal in your `Repos` folder:
 
 ```shell
-# Replace username with YOUR GitHub username.
-git clone https://github.com/username/nlp-04-api-text-data
+git clone https://github.com/sydsailors/nlp-04-api-text-data
 cd nlp-04-api-text-data
 code .
 ```
@@ -99,7 +98,7 @@ code .
 
 ```shell
 uv self update
-uv python pin 3.14
+uv python pin 3.13
 uv sync --extra dev --extra docs --upgrade
 
 uvx pre-commit install
