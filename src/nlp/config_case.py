@@ -33,7 +33,7 @@ from pathlib import Path
 # ============================================================
 
 # TODO: In your custom app, change the URL to work with a different API that returns JSON data.
-API_URL: str = "https://jsonplaceholder.typicode.com/posts"
+API_URL: str = "https://jsonplaceholder.typicode.com/comments"
 
 # TODO: In your custom app, change the header user-agent value
 # to something that represents your app or project.
@@ -53,5 +53,5 @@ PROCESSED_PATH: Path = DATA_PATH / "processed"
 
 # TODO: In your custom app, change the output file names from case_
 # to something that represents YOUR custom project.
-RAW_JSON_PATH: Path = RAW_PATH / "case_raw.json"
-PROCESSED_CSV_PATH: Path = PROCESSED_PATH / "case_processed.csv"
+RAW_JSON_PATH: Path = RAW_PATH / "sailors_raw.json"
+PROCESSED_CSV_PATH: Path = PROCESSED_PATH / "sailors_processed.csv"
