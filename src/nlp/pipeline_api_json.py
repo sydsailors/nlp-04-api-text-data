@@ -48,8 +48,8 @@ from nlp.config_sailors_copy import (
     RAW_PATH,
 )
 from nlp.stage01_extract import run_extract
-from nlp.stage02_validate_case import run_validate
-from nlp.stage03_transform_case import run_transform
+from nlp.stage02_validate_sailors import run_validate
+from nlp.stage03_transform_sailors import run_transform
 from nlp.stage04_load import run_load
 
 # ============================================================
