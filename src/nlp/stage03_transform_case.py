@@ -65,11 +65,9 @@ def run_transform(
     for record in json_data:
         records.append(
             {
-                "post_id": record["postId"],
+                "user_id": record["userId"],
                 "id": record["id"],
-                "name": record["name"],
-                "email": record["email"],
-                "body": record["body"],
+                "title": record["title"],
             }
         )
 
@@ -78,8 +76,7 @@ def run_transform(
     # Derived fields
     df = df.with_columns(
         [
-            pl.col("name").str.len_chars().alias("title_length"),
-            pl.col("body").str.len_chars().alias("body_length"),
+            pl.col("title").str.len_chars().alias("title_length"),
         ]
     )
 

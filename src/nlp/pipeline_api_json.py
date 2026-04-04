@@ -39,7 +39,7 @@ import logging
 
 from datafun_toolkit.logger import get_logger, log_header
 
-from nlp.config_case import (
+from nlp.config_sailors_copy import (
     API_URL,
     HTTP_REQUEST_HEADERS,
     PROCESSED_CSV_PATH,
